@@ -1,0 +1,18 @@
+---
+# Chinese translations for BITBLOG
+# Add your translation strings below
+
+nav:
+  home: 首页
+  about: 关于
+  learn_bitbox: 了解 BITBOX
+footer:
+  maintained_by: 由
+  generated_by: 此页面由
+  github_pages: GitHub Pages
+  生成
+read_more: 阅读更多...
+language_switcher:
+  title: 语言
+  english: English
+  chinese: 中文
