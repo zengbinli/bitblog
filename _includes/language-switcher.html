@@ -1,0 +1,10 @@
+<div class="language-switcher">
+  <span>🌐</span>
+  {% for lang in site.languages %}
+    {% if lang.code != page.lang %}
+      <a href="{{ site.baseurl }}/{% if lang.code != site.default_lang %}{{ lang.code }}/{% endif %}}" title="{{ lang.name }}">{{ lang.flag }} {{ lang.code | upcase }}</a>
+    {% else %}
+      <strong>{{ lang.flag }} {{ lang.code | upcase }}</strong>
+    {% endif %}
+  {% endfor %}
+</div>
