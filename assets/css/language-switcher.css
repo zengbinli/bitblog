@@ -1,0 +1,20 @@
+.language-switcher {
+  text-align: center;
+  margin: 12px 0 0 0;
+  font-size: 14px;
+}
+
+.language-switcher a {
+  margin: 0 8px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.language-switcher a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.language-switcher strong {
+  margin: 0 8px;
+}
